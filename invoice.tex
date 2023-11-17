@@ -1,0 +1,65 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[left=1.5cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\setlength\parindent{0pt}
+\setlist[itemize]{leftmargin=*}
+
+\begin{document}
+
+\begin{flushright}
+    \textbf{Invoice Number:} \#XXXX \\
+    \textbf{Date:} \today
+\end{flushright}
+
+\begin{flushleft}
+\textbf{Bill To:} \\
+Client's Name \\
+Client's Address \\
+Client's City, State ZIP \\
+Client's Email
+\end{flushleft}
+
+\vspace{2em}
+
+\begin{center}
+\textbf{\Large Invoice}
+\end{center}
+
+\begin{tabular}{|p{0.4\textwidth}|p{0.1\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|}
+    \hline
+    \textbf{Description of Service} & \textbf{Qty} & \textbf{Rate} & \textbf{Amount} \\
+    \hline
+    Software Development (Specify project/task) & X hours & \$X.XX per hour & \$X,XXX.XX \\
+    \hline
+    \multicolumn{3}{|r|}{\textbf{Total Amount Due}} & \$X,XXX.XX \\
+    \hline
+\end{tabular}
+
+\vspace{2em}
+
+\textbf{Payment Terms:} Please make the payment within 30 days of receiving this invoice.
+
+\vspace{2em}
+
+\textbf{Notes:}
+\begin{itemize}
+    \item Checks can be written and mailed to the following address:
+
+    Joseph Kerkhof
+
+    [Address]
+
+    \item If you have any questions or concerns regarding this invoice, please contact me at \href{mailto:joseph@kerkhof.dev}{joseph@kerkhof.dev}.
+\end{itemize}
+
+\vspace{2em}
+
+Thank you for your business.
+
+\end{document}
+
+%Make sure to replace the placeholders ([placeholders]) with the appropriate information for your invoice. You can also customize the layout and design of the invoice according to your preferences.
